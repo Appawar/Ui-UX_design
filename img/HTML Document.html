@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/practice1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Document</title>
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    .container{
+
+        border: 3px solid rebeccapurple;
+        width: 80%;
+        margin: auto;
+        
+    }
+    .name{
+        
+        background-color: lightsalmon; 
+        width: 100%;
+        padding: 9px;
+        font-size: larger;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(135, 38, 104);
+         
+       
+        
+    }
+    .menu{
+        background-color:darkolivegreen;
+        margin-top: 10px;
+        width: 100%;
+        padding: 20px;
+    }
+    .menu a{
+
+        text-align: center;
+        text-decoration: none;
+        margin: 10px;
+        color: beige;
+        padding: 10px;
+    }
+    .imageslide{
+         
+        background-color:darkolivegreen;
+        margin-top: 10px;
+        width: 100%;
+        padding: 9px;
+    }
+    .imageslide img{
+
+        width: 100%;
+    }
+
+     
+    
+    .content{
+        background-color:rgb(222, 111, 27);
+        margin-top: 10px;
+        width: 100%;
+        padding: 9px;
+    }
+    .container p{
+        font-size: larger;
+        text-align: justify;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .footer{
+        background-color:darkolivegreen;
+        margin-top: 10px;
+        width: 100%;
+        padding: 9px;
+    }
+    .footer ul{
+        margin: 10px;
+    }
+    .footer ul li{
+        margin: 10px;
+        
+    }
+    .footer ul li a{
+        margin: 10px;
+        text-decoration: none;
+        color: beige;
+        text-decoration-line: none;
+        
+    }
+   </style>
+<style id="injected-pragma-style-ofvtic">@charset "utf-8";.pragma-slider{user-select:none;cursor:grab}.pragma-slider:active{cursor:grabbing}.pragma-slider-bg{width:100%;height:5px;background:#6F6F6F;border-radius:15px}.pragma-slider-bar{height:100%;width:100%;background:#2B6CCE;position:relative;transition:all .05s ease;border-radius:15px}.pragma-slider-thumb{width:5px;height:18px;background:#2b6cce;transition:all .05s ease;position:absolute;right:0;top:50%;bottom:50%;margin:auto}.slider-display{text-align:center;padding-bottom:20px}</style><style id="injected-pragma-style-vixl11">
+    .revert-all {
+        all: initial !important;
+    }
+</style></head>
+<body>
+    <div class="container">
+        <div class="name">
+            <h1>Company name</h1>
+             
+        </div>
+        <div class="menu">
+           <a href="http://127.0.0.1:5500/practice1.html">ABOUT</a>
+           <a href="http://127.0.0.1:5500/practice1.html"> SERVICES</a>
+           <a href="http://127.0.0.1:5500/practice1.html"> CONTACT</a>
+           <a href="http://127.0.0.1:5500/practice1.html">LOGIN</a>
+       </div>
+       <div class="imageslide">
+         
+            <img src="./HTML Document_files/1705861654-6152.avif" alt="">
+        
+         
+        
+       </div>
+       <div class="content">
+         <p>Celebrations are going in full swing across the nation as today marks a remarkable day in the modern era of India. Yes, it’s Ram Mandir Pran Pratishtha in Ayodhya or the inauguration ceremony of the temple today, and the eyes of the entire nation are set on it. In several Indian states, there’s a public holiday today, and even arrangements are made to watch the live ceremony on the big screen. Let’s find out how the response is at the box office!
+
+            For those who don’t know, PVR and INOX have devised an innovative idea about showcasing the live screening of Ram Mandir’s inauguration ceremony in Ayodhya (Ram Mandir Pran Pratishtha). This live screening is conducted across PVR and INOX properties in selected locations in the country and as expected, the response was phenomenal.</p>
+       </div>
+       <div class="footer">
+        <ul>
+            <li> <a href="http://127.0.0.1:5500/practice1.html">ABOUT</a></li>
+            <li>  <a href="http://127.0.0.1:5500/practice1.html"> SERVICES</a></li>
+            <li> <a href="http://127.0.0.1:5500/practice1.html"> CONTACT</a></li>
+            <li> <a href="http://127.0.0.1:5500/practice1.html">LOGIN</a></li>
+        </ul>
+        
+       </div>
+
+
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><vmaker-container style="position: fixed; top: 0px; right: 0px; z-index: 99999999; width: 100%; height: 100%; pointer-events: none; user-select: none;"><template shadowrootmode="open"><vm-container id="vmaker-extension-root" data-color-mode="light" data-light-theme="light" style="display: none; margin-left: auto;"></vm-container><div></div></template><style>
+          @font-face {
+            font-family: 'VM-Poppins';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Poppins-Light.ttf) format('truetype');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+          }
+          @font-face {
+            font-family: 'VM-Poppins';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Poppins-Regular.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+          }
+          @font-face {
+            font-family: 'VM-Poppins';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Poppins-Medium.ttf) format('truetype');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+          }
+          @font-face {
+            font-family: 'VM-Poppins';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Poppins-SemiBold.ttf) format('truetype');
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+          }
+          @font-face {
+            font-family: 'VM-Poppins';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Poppins-Bold.ttf) format('truetype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+          }
+          @font-face {
+            font-family: 'VM-Allerta';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Allerta-Regular.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+          @font-face {
+            font-family: 'VM-Charmonman';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Charmonman-Regular.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+          @font-face {
+            font-family: 'VM-Comic Neue';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/ComicNeue-Regular.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+          @font-face {
+            font-family: 'VM-Open Sans';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/OpenSans-Regular.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+          @font-face {
+            font-family: 'VM-Poiret One';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/PoiretOne-Regular.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+          @font-face {
+            font-family: 'VM-Signpainter';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Sign-Painter-Regular.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+          @font-face {
+            font-family: 'VM-Futura';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Futura-Light-font.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+          @font-face {
+            font-family: 'VM-Barlow';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/Barlow-Regular.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+          @font-face {
+            font-family: 'VM-Norwester';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/norwester.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+          @font-face {
+            font-family: 'VM-Europa';
+            src: url(chrome-extension://bjibimlhliikdlklncdgkpdmgkpieplj/static/media/europa.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+          }
+        </style></vmaker-container></html>

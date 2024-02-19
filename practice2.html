@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shree ram</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .mainclass {
+        width: 80%;
+        height: auto;
+        /*border: 3px solid rgb(181, 100, 116);*/
+        margin: auto;
+      }
+      .nav {
+        width: 100%;
+        /*border: 3px solid rgb(217, 70, 70);*/
+        height: 70px;
+        background-color: black;
+      }
+      .nav .menu {
+        width: 48%;
+        float: right;
+       /*border: 3px solid rgb(103, 181, 103);*/
+        margin-top: 15px;
+
+      }
+      .nav .menu a
+      {
+        text-decoration: none;
+        margin:8px;
+         color:bisque;
+        cursor: pointer;
+        padding: 3px;
+      }
+     .menu :hover{
+
+        background-color: orange;
+        color:bisque;
+         
+     }
+      .nav .heding {
+        width: 48%;
+        float: left;
+       /* border: 3px solid rgb(103, 181, 103);*/
+         
+      }
+      .nav .heding h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight:100;
+        display:inline;
+        color: orange;
+         
+      }
+
+      .content {
+        width: 100%;
+        height: auto;
+        /*border: 3px solid rgb(139, 73, 73);*/
+        margin-top: 10px;
+      }
+      .content img {
+        width:100%;
+        height: 100%;
+      }
+      .imageup{
+        width: 100%;
+        min-height: 290px;
+       /* border:3px solid rgb(158, 137, 94);*/
+      }
+      .imageup .img{
+        width :37%;
+        height: auto;
+        /*border:3px solid rgb(158, 137, 94);*/
+        float: left;
+      }
+
+      .img  img{
+        width:65%;
+        float: left;
+        margin: 5px;
+        
+      }
+      .img p{
+
+        text-align:left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+        margin: 10px;
+        color: chocolate;
+        
+         
+      }
+      
+      .imageup .event{
+        width:48%;
+        float:right;
+        /*border:3px solid rgb(158, 137, 94);*/
+      }
+      .event p {
+        margin: 9px;
+        color: darkgoldenrod;
+      }
+      .event h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 300;
+        color: coral;
+      }
+      .footer{
+         width:100%;
+         margin: 5px;
+         list-style: none;
+
+      }
+      .footer li a{
+        margin: 15px;
+        text-decoration: none;
+        color: darkgoldenrod;
+        display: flexbox;
+         
+      }
+       
+    </style>
+  </head>
+  <body>
+    
+    <marquee behavior="" direction="left" scrollamount="3" ><h1>JAY SHRI RAM</h1></marquee>
+    <div class="mainclass">
+      <div class="nav">
+        <div class="heding">
+            <audio src="Audio/Mere Ghar Ram Aaye Hain(PagalWorld.com.pe).mp3"></audio>
+            <h1>Shree Ram Mandir Trust Ayodhya</h1>
+        </div>
+        <div class="menu">
+            <a href="">ABOUT</a>
+            <a href="">SERVICES</a>
+            <a href="">DONATION</a>
+            <a href="">DARSHAN</a>
+            <a href="">CONTACT</a>
+            <a href="login.html">LOGIN</a>
+        </div>
+      </div>
+      <div class="content">
+        <img src="img/Pran_Pratishtha_ceremony_of_Shree_Ram_Janmaboomi_Temple_in_Ayodhya,_Uttar_Pradesh_on_January_22,_2024.jpg.webp" alt="">
+      </div>
+      <div class="imageup">
+        <div class="img">
+            <div class="imgl">
+            <img src="img/avadh-me-raam-3_202401284174.jpg" alt="">
+            </div>
+            <div class="para">
+                <p>
+                    Prime Minister Narendra Modi at the Shri Ram Janmaboomi Temple in Ayodhya 
+                    to participate in the Ram Temple Pran Pratishtha ceremony
+                </p>
+            </div>
+            </div>
+            <div class="event">
+              <marquee behavior="" direction="left" scrollamount="3"  onmouseover="this.stop()" onmouseleave="this.start() "> <h1>Upcoming event of Ram Mandir</h1></marquee>  
+              <marquee behavior="" direction="up" scrollamount="3"  onmouseover="this.stop()" onmouseleave="this.start() " >
+                <p>RAM MANDIR DARSHAN : TICKET, TIMING AND FREE BOOKING</p>
+                <p>AYODHYA DEEPOTSAV 2024, REGISTRATION, ENTRY PASS</p>
+                <p>RAM MANDIR INAUGURATION: DATE, TICKET, AND OPENING CEREMONY TIME</p>
+                <p>AYODHYA DEEPOTSAV 2024, REGISTRATION, ENTRY PASS</p>
+            </marquee>
+            </div>
+        </div>
+        <div class="footer">
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">DONATION</a></li>
+            <li><a href="">DARSHAN</a></li>
+           <li><a href="">CONTACT</a></li>
+         </div>
+        
+      </div>
+      
+    
+  </body>
+</html>
