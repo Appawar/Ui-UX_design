@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>amezon</title>
+    <link rel="icon" type="img/png" href="img/th.jpeg" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+
+        background-color: bisque;
+      }
+
+      .amazon {
+        width: 100%;
+        min-height: 100px;
+        margin: auto;
+        /* border:3px solid black; */
+        position: relative;
+        background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      }
+      .amazon .logo {
+        width: 42%;
+        min-height: 100px;
+        margin: auto;
+        /* border:3px solid black; */
+        position: absolute;
+        left: 0;
+      }
+
+      .logo img {
+        width: 17%;
+        margin: 10px;
+        size-adjust: 6px;
+      }
+      .amazon .menu {
+        width: 42%;
+        min-height: 100px;
+        margin: auto;
+        /* border:3px solid black; */
+        position: absolute;
+
+        right: 0;
+      }
+      .menu nav {
+        margin-top: 17px;
+        font-size: 20px;
+        margin: 25px;
+      }
+      .menu nav a {
+        text-decoration: none;
+        margin: 12px;
+        color: darkgray;
+      }
+      .menu nav a:hover {
+        background-color: slategray;
+        border-radius: 50%;
+        padding: 5px;
+        transition: 1s;
+      }
+      .slider {
+        width: 90%;
+        height: 600px;
+        margin: auto;
+        /* border:3px solid black; */
+
+        /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+        margin-top: 20px;
+      }
+      .slider img {
+        margin-left: 300px;
+      }
+
+      .products {
+        width: 90%;
+        height: 600px;
+        margin: auto;
+        /* border:3px solid black;  */
+        margin-top: 20px;
+      }
+      .products .product {
+        width: 22%;
+        height: 500px;
+        /* border:1px solid black;  */
+        float: left;
+        margin: 20px;
+        position: relative;
+        cursor: pointer;
+        box-shadow: #24243e,gray;
+      }
+      .products .product:hover{
+        background-color:beige;
+         
+        
+         
+        padding: 5px;
+        transition: 1s;
+
+      }
+      .product img {
+        width: 100%;
+        padding: 5px;
+      }
+      .product h1 {
+        text-align: justify;
+        padding: 12px;
+        color: #302b63;
+      }
+      .product a {
+        text-decoration: none;
+        background-color: #24243e;
+        font-size: 30px;
+        color: white;
+        margin-left: 75px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: 500;
+        padding: 3px;
+        position: absolute;
+        bottom: 12px;
+        
+         
+      }
+       
+
+      footer {
+
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        border:3px solid black; 
+        margin-bottom: 1px;
+        position: relative;
+        background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+        position: relative;
+
+      }
+
+      footer .logo{
+
+         width: 42%;
+         height: 300px;
+         /* border:3px solid black;  */
+         position: absolute;
+         left: 15px;
+         top: 55px;
+         
+      }
+      footer .nav{
+        width: 42%;
+         height: 300px;
+         /* border:3px solid black;  */
+         position: absolute;
+         right: 15px;
+         top: 55px;
+      }
+      .nav img{
+        width: 80%;
+      }
+      .logo ul li{
+
+        list-style:none;
+        margin: 40px;
+      }
+      .logo ul li a{
+           text-decoration: none;
+           margin: 50px;
+           font-size: 20px;
+           color:darkgrey
+            
+
+      }
+
+      .logo ul li a:hover{
+        background-color: slategray;
+        border-radius: 50%;
+        padding: 5px;
+        transition: 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="amazon">
+      <div class="logo">
+        <img
+          src="img/White-Amazon-Logo-Background-PNG-Image.png"
+          alt="Amazon"
+        />
+      </div>
+      <div class="menu">
+        <nav>
+          <a href="#">HOME</a>
+          <a href="#">SHOP</a>
+          <a href="#">PAY</a>
+          <a href="#">PRODUCTS</a>
+          <a href="#">CONTACT</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="slider">
+      <img src="img/White-Amazon-Logo-Background-PNG-Image.png" alt="Amazon" />
+    </section>
+    <section class="products">
+      <div class="product">
+        <img src="img/51x3cj+-iUL._AC_UL450_SR450,320_.jpg" alt="" />
+        <h1>
+          The Derma Co 1% Hyaluronic Sunscreen Aqua Ultra Light Gel with SPF 50
+          PA++++ For Broad Spectrum, UV A, UV B & Blue Light Protection -
+          50g(dermaco)
+        </h1>
+        <a
+          href="https://www.amazon.in/Derma-Co-Hyaluronic-Sunscreen-Protection/dp/B095CRM8NF/ref=zg_bs_c_beauty_d_sccl_1/258-7869330-8599333?pd_rd_w=69dZ9&content-id=amzn1.sym.7dd29d48-66c1-486c-967d-2ed40101f2ea&pf_rd_p=7dd29d48-66c1-486c-967d-2ed40101f2ea&pf_rd_r=82AY620MV5D9N9PB9FCS&pd_rd_wg=TDrPp&pd_rd_r=29a259aa-2fe6-4685-91be-7b7e12cbaea3&pd_rd_i=B095CRM8NF&th=1"
+          >description..</a
+        >
+      </div>
+      <div class="product">
+        <img src="img/speakr.jpeg" alt="" />
+        <h1>Echo Dot (3rd Gen) - Smart speaker with Alexa (Black)</h1>
+        <a
+          href="https://www.amazon.in/Echo-Dot-3rd-Gen/dp/B07PFFMP9P/ref=s9_acsd_al_ot_c2_x_1_t?_encoding=UTF8&pf_rd_m=A21TJRUUN4KGV&pf_rd_s=merchandised-search-4&pf_rd_r=WG26N4W52VHT6HXMEZMZ&pf_rd_p=e4fb1b22-f85d-42aa-a0d0-dbe617041248&pf_rd_t=&pf_rd_i=14156834031"
+          >description..</a
+        >
+      </div>
+      <div class="product">
+        <img src="img/61j99uUfXNL._AC_UY327_FMwebp_QL65_.webp" alt="" />
+        <h1>Samsung Galaxy S23 Ultra 5G (Cream, 12GB, 512GB Storage)</h1>
+        <a
+          href="https://www.amazon.in/Samsung-Galaxy-Ultra-Cream-Storage/dp/B0BT9GDQLZ/ref=sr_1_17?crid=3T7DUGBMUO0DA&dib=eyJ2IjoiMSJ9.XLXTvfTPhGOZsOsEI4UtDKV2bjzHmCTc4heQEIk8zgMBrgYaKE75v5sEYQctct-8U2zqUvX9J2OlrIOCmomqIH-EPxhNJFB8Swr1WHx5Wy69KAdFdVOA9nsJDhvLhaF_JkRCB7GLwqQwh7WHe1ZWDAfcAUYXZ-qcagTjzBAg0E0Kp0gVJGek6X2cgPut-79N2MsaMz86Nv9WYXnHzlcB4-vLAjk3Gw79FGXNO1SAI58.j126gC1YmHhtqRpBMm2cSdvpBggkkvzypyxgElN0Ru4&dib_tag=se&keywords=samsung%2Bgalaxy%2Bnote%2B8&qid=1708705065&sprefix=samsung%2Bgalaxy%2Bnote%2B8%2Caps%2C353&sr=8-17&th=1"
+          >description</a
+        >
+      </div>
+      <div class="product">
+        <img src="img/81EYBGUCCvL._SL1500_.jpg" alt="" />
+        <h1>Sparx Mens Sm-736 Sneaker</h1>
+        <a
+          href="https://www.amazon.in/Sparx-Mens-SX0736G-Navybluered-Running/dp/B0BCGNQ4KN/ref=sr_1_4?dib=eyJ2IjoiMSJ9.l9rfeppcXIO9rkC_T5IvHnkUTaeQ1UU7Lnh2PyBBuz_0Cvd0CdqpXrjC8BatEJOnopYQ3sY0jrhNpyq8lghFI-V_0OO0Z17lgaD8yR-LfHLMcztcA25O2HU1c4wgSw-NZHfoh_1j4R1NzX7gOCeDIY9hSt0b3XJRnM0JT9xfwXQy7COKbX1J8meycD-SDg6DPIEijcmHiupM-uLKdKqzELNpxZmz29D5DECGIkPq_Z_YZ-tPvNcHOT_8_lPlQMpYxjBLllan_MGcnMHGqywisng_5gSctBoDq2UZqwkhp1Q.izD7wNmMYRXTZQvUT1ex4aUdJhYAqxfB6WAa_Bxhdsg&dib_tag=se&pf_rd_i=1983396031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=43301cea-2a75-4d3a-b4db-d742f555b9eb&pf_rd_r=X2BFK50MJWHDFKVF6ENR&pf_rd_s=merchandised-search-15&qid=1708701620&refinements=p_89%3ASparx&rnid=3837712031&s=shoes&sr=1-4"
+          >description</a
+        >
+      </div>
+    </section>
+    <footer>
+        <div class="logo">
+            <ul>
+                
+                   <li> <a href="#">HOME</a></li>
+                   <li><a href="#">SHOP</a></li>
+                   <li><a href="#">PAY</a></li>
+                   <li><a href="#">PRODUCTS</a></li>
+                   <li><a href="#">CONTACT</a></li>
+                   
+            </ul>
+              
+        </div>
+        <div class="nav">
+
+            <img src="img/White-Amazon-Logo-Background-PNG-Image.png" alt="">
+
+        </div>
+    </footer>
+  </body>
+</html>
