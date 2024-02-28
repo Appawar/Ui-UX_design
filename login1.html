@@ -12,7 +12,11 @@
       height: 600px;
       margin: auto;
       /* border: 3px solid black; */
-      background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e),url("img/bank.png");
+      background-blend-mode:screen;
+      background-repeat: no-repeat;
+      background-position:right;
+       
       position: relative;
 
      }
@@ -95,7 +99,7 @@
            left:55px;
            border-top-right-radius: 60px;
            border-bottom-left-radius: 60px;
-            background-color:#24243e;
+            /* background-color:#24243e; */
            border-left: none;
            border-right: none;
            box-shadow: 0px 0px 10px 10px ;
@@ -207,6 +211,8 @@
 </head>
 <body>
      <section class="container">
+         
+        </div>
      <div class="logo">
      <nav>
         <a href="">HOME</a>
@@ -240,14 +246,19 @@
                 </div>
                  
                 <label for="txtpass">PASSWORD</label>
+
                 <input type="password" id="txtpass" placeholder="ENTER PASSWORD">
                 <button type="submit" id="btnsubmit">LOGIN</button>
                 
             </form>
          </div>
      </div>
-    
+     <div class="custom-shape-divider-bottom-1709109874">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
      </section>
+      
     
 </body>
 </html>
