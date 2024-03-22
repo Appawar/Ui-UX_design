@@ -46,7 +46,7 @@
         border-radius: 25px;
      }
      .logo nav{
-        margin: 10px;
+        margin: 9px;
 
          
      }
@@ -60,11 +60,11 @@
 
      .logo nav a:hover{
         text-decoration: none;
-        margin: 3px;
+        margin: 2px;
         color: aliceblue;
         font-size:18px;
         background-color: #2c5364;
-        padding: 7px;
+        padding: 5px;
         border-radius: 10px;
         transition: 1s;
         
@@ -83,6 +83,7 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 17px;
         font-weight: 500;
+        text-shadow: 2px 4px  5px gold;
         
      }
      .container .log{
@@ -184,7 +185,7 @@
         margin-left: 20px;
         margin-top: 10px;
         outline: none;
-        background-color:#203a43;
+        background-color:#83c7de;
         color: aliceblue;
      }
      .from-div i{
@@ -224,7 +225,53 @@
 .custom-shape-divider-bottom-1710301855 .shape-fill {
     fill: #FFFFFF;
 }
+.wrap{
+   width:90%;
+   height: 300px;
+   /* border: 3px solid black; */
+    
+   margin: auto;
+   margin-top: 30px;
+}
+table, tr,th,td{
+   /* border: 2px solid black; */
+   border-collapse: collapse;
+}
+table{
+   width:50vw;
+}
+td{
+   text-align: center;
+   padding: 5px;
+    
+}
+th{
+   padding:10px;
+   background-color: #2c5364;
+   color: aliceblue;
+}
+  
+ tr:nth-child(even){
+   background-color: #203a43;
+   color: aliceblue;
+ }
+ tr:nth-child(odd){
+   background-color:rgb(220, 156, 72);
+   color: aliceblue;
+ }
+ 
+.wrap h2{
+   text-align: center;
+}
 
+.Acc_No {
+   background-color:rgb(255, 191, 80);
+}
+tr:hover{
+   background-color: #302b63;
+   color: aliceblue;
+ }
+  
      
      
     </style>
@@ -261,14 +308,14 @@
 
                 <label for="txtuser">USERNAME</label>
                 <i class="fa-solid fa-user"></i>
-                <input type="text" id="txtuser" placeholder="ENTER USERNAME">
+                <input type="text" id="txtuser" name="txtuser" placeholder="ENTER USERNAME" autocomplete="off">
                 <div class="icon">
                     <i class="fa-solid fa-lock"></i>
                 </div>
                  
                 <label for="txtpass">PASSWORD</label>
 
-                <input type="password" id="txtpass" placeholder="ENTER PASSWORD">
+                <input type="password" id="txtpass" name="txtpass" placeholder="ENTER PASSWORD" autocomplete="off">
                 <button type="submit" id="btnsubmit">LOGIN</button>
                 
             </form>
@@ -281,6 +328,61 @@
          </svg>
      </div>
       
+     <div class="wrap">
+      <h2>ACCOUNTS</h2>
+      <center> 
+      <table>
+         <tr>
+            <th>Acc_no.</th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Balence</th>
+         </tr>
+         <tr>
+            <td class="Acc_No">40318088565</td>
+            <td>Abhay</td>
+            <td class="Acc_No">9021991450</td>
+            <td>2100INR</td>
+         </tr>
+         <tr>
+            <td class="Acc_No">40318088566</td>
+            <td >Abhay</td>
+            <td class="Acc_No">9021991450</td>
+            <td>2100INR</td>
+         </tr>
+         <tr>
+            <td class="Acc_No">40318088567</td>
+            <td>Vaibhav</td>
+            <td class="Acc_No">9021991450</td>
+            <td>2100INR</td>
+         </tr>
+         <tr>
+            <td class="Acc_No">40318088568</td>
+            <td>Ayush</td>
+            <td class="Acc_No">9021991450</td>
+            <td>2100INR</td>
+         </tr>
+         <tr>
+            <td class="Acc_No">40318088569</td>
+            <td>Ganesh</td>
+            <td class="Acc_No">9021991450</td>
+            <td>2100INR</td>
+         </tr>
+         <tr>
+            <td class="Acc_No">40318088570</td>
+            <td>Ram</td>
+            <td class="Acc_No">9021991450</td>
+            <td>2100INR</td>
+         </tr>
+         <tr>
+            <td class="Acc_No">40318088565</td>
+            <td>Shym</td>
+            <td class="Acc_No">9021991450</td>
+            <td>2100INR</td>
+         </tr>
+      </center>
+      </table>
+     </div>
     
 </body>
 </html>
