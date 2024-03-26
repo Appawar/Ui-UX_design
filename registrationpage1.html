@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        
+        
+        .box{
+            width: 60%;
+            height: 500px;
+            margin: auto;
+            /* border: 3px solid black; */
+            margin-top: 100px;
+        }
+
+        .side1{
+            width: 40%;
+            height: 400px;
+            margin: auto;
+            border: 5px solid black; 
+            border-left: none;
+            border-right: none;
+            float: left;
+            margin-left: 90px;
+            margin-top: 40px;
+            border-top-left-radius:70px ;
+            border-bottom-left-radius:70px ;
+            background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364),url("img/nature1.jpg");
+            background-blend-mode: screen;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-shadow: 1px 1px 2px 1px;
+            border-top-color: burlywood;
+            border-bottom-color: burlywood;
+
+        }
+        .side2{
+            width: 40%;
+            height: 400px;
+            margin: auto;
+            border: 5px solid black; 
+            border-left: none;
+            border-right: none;
+            float: right;
+            margin-right: 90px;
+            margin-top: 40px;
+            line-height: 300px;
+            text-align: center;
+            border-top-right-radius:70px ;
+            border-bottom-right-radius:70px ;
+            box-shadow: 1px 1px 2px 1px;
+            background-image: url("img/nature4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-top-color: burlywood;
+            border-bottom-color: burlywood;
+            position: relative;
+
+            
+
+
+        }
+          .side2 img{
+             width: 45px;
+             margin: 5px;
+            padding-bottom: 120px;
+            cursor: pointer;
+          }
+           h2{
+            color: #fff;
+             font-family:Georgia, 'Times New Roman', Times, serif;
+              
+          }
+        .from-div{
+
+            margin-top: 105px;
+            
+        }
+        .from-div label{
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+             font-weight:bolder;
+             color:#fff;
+             padding-top: 45px;
+
+            
+
+        }
+
+        input[type=text]{
+
+            padding: 5px;
+            width: 90%;
+            margin-top: 20px;
+            outline: none;
+            background: none;
+            border: none;
+            border-bottom: 2px solid white;
+            color: #fff;
+            margin-left: 20px;
+            margin-bottom: 3px;
+            text-align: center;
+            
+             
+
+        }
+        input[type=password]{
+
+            padding: 5px;
+            width: 90%;
+            margin-top: 20px;
+            outline: none;
+            background: none;
+            border: none;
+            border-bottom: 2px solid white;
+            color: #fff;
+            margin-left: 20px;
+            text-align: center;
+             
+
+}
+input[type=text]::placeholder{
+    text-align: center;
+    color: #fff;
+}
+input[type=password]::placeholder{
+    text-align: center;
+    color: #fff;
+}
+button{
+    margin-top: 45px;
+    width: 90%;
+    margin-left: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to left, #1423, burlywood);
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="side1">
+        <div class="from-div">
+            <form action="#" method="post">
+                <label for="uname">Enter Username</label>
+                <input type="text" id="uname" placeholder="Enter Username" autocomplete="off">
+                <label for="upass">Enter Password</label>
+                <input type="password" id="upass" placeholder="Enter Password" autocomplete="off">
+                <button type="submit" id="btnsub">Register</button>
+            </form>
+        </div>
+        </div>
+
+        <div class="side2">
+            <h2>follw us on</h2>
+             
+                <img src="img/fb.png" alt="facebook">
+                <img src="img/ig.png" alt="instagram">
+                <img src="img/ln.png" alt="linkedin">
+             
+           
+        </div>
+    </div>
+    
+</body>
+</html>
